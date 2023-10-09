@@ -11,7 +11,7 @@ const RecruitmentEvent = () => {
       "http://localhost:4000/api/v1/referrals/find",
       {
         jobId,
-      },
+      }
       {
         header: {
           "Content-Type": "application/json",
